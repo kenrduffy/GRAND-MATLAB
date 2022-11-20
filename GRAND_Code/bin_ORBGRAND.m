@@ -5,7 +5,8 @@
 % decoding," in IEEE ICASSP, 2021, pp. 8268–8272 
 % and implemented using the Landslide algorithm introduced in 
 % K. R. Duffy, W. An, and M. Medard, "Ordered reliability bits guessing 
-% random additive noise decoding,” arXiv:2202.13951, 2022.
+% random additive noise decoding,” IEEE Trans. Signal Process., vol. 70, 
+% pp. 4528-4542, 2022.
 
 % Inputs:
 %   n               - code length

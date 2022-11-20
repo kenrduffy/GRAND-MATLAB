@@ -1,6 +1,8 @@
 % Landslide algorithm for generating integer partitions from 
 % K. R. Duffy, W. An, and M. Medard, "Ordered reliability bits 
-% guessing random additive noise decoding," arXiv:2202.13951, 2022.
+% guessing random additive noise decoding," IEEE Trans. Signal 
+% Process., vol. 70, pp. 4528-4542, 2022.
+
 
 % W is the target logistic weight, w is the Hamming weight and n is the 
 % length of the code.
