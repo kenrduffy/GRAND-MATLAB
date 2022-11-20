@@ -1,5 +1,5 @@
 # GRAND-MATLAB
-Guessing Random Additive Noise Decoding (GRAND)
+Guessing Random Additive Noise Decoding (GRAND) (TM)
 
 Subject to license:
 "GRAND Codebase Non-Commercial Academic Research Use License 021722.pdf"
