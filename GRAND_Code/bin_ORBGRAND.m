@@ -58,10 +58,9 @@ function [y_decoded,err_vec,n_guesses,abandoned] = bin_ORBGRAND(H,max_query,y_so
      while n_guesses<max_query
         % Increment logistic weight
         W = W+1;
-        w=max(0,floor((1+2*n-sqrt((1+2*n)^2-8*W))/2));
+        w = ceil((1+2*n-sqrt((1+2*n)^2-8*W))/2);
         % Increment Hamming weight
-        while w<floor((sqrt(1+8*W)-1)/2)
-            w=w+1;
+        while w<=floor((sqrt(1+8*W)-1)/2)
             % Make error vectors
             % Internally converts W and n to W' and n'.
             noise_locations = landslide(W,w,n); 
@@ -77,6 +76,7 @@ function [y_decoded,err_vec,n_guesses,abandoned] = bin_ORBGRAND(H,max_query,y_so
                     return;
                 end
             end
+            w=w+1;
         end
      end
     % If we max out on queries.
